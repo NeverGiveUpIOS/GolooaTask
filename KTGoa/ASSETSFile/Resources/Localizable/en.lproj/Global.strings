@@ -1,0 +1,43 @@
+/* 
+  Global.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+
+confirm="Confirm";
+cancel = "Cancel";
+dataEmpty="Data is empty";
+paymenting="Paying… Please wait";
+paymentFailed="Payment failed";
+paymentSuccessful="Payment successful";
+cancelPay="Payment canceled";
+productNotExist="Product does not exist";
+coins="Coins";
+myCoins="My Coins";
+rechargeCoins="Recharge Coins";
+coinRecords="Coin Records";
+rechargeNow="Recharge Now";
+rechargingAgreement="Recharging indicates agreement with the《Recharge Agreement》";
+releaseImRefresh="Release to Refresh Immediately";
+pullUpLoadMore="Pull up to load more";
+noMoreData="No more data available";
+refresh="Refresh";
+today="Today";
+bonus="Bonus";
+saveSuccessful="Save Successful";
+
+discoverTheNewVersion="Discover the new version";
+updateNow="Update Now";
+nextTime="Next Time";
+tip="Prompt";
+
+albumPermissionsNotAllowedTip="Album permissions are not allowed. Please allow “Golaa” to access your album in “Settings” > “Privacy” > “Photos” to set a profile picture, upload and share images, and save photos.";
+cameraPermissionsNotAllowedTip="Camera usage is not allowed. Please go to “Settings” > “Privacy” > “Camera” and allow “Golaa” to access your camera for taking photos or videos and for video chatting.";
+noNetwork="No network/Network exception";
+networkException="Network exception, please check network settings";
+year="year";
+month="month";
+day="day";

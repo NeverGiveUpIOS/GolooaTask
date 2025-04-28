@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ReleTaskStepView" id="iN0-l3-epB" customClass="ReleTaskStepView" customModule="KTGoa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="192"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxF-Ot-d4o">
+                    <rect key="frame" x="19" y="2" width="37" height="23"/>
+                    <color key="backgroundColor" red="0.35686274509803922" green="0.43529411764705883" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="Pqr-aP-hN5"/>
+                        <constraint firstAttribute="height" constant="23" id="bhI-bL-fP4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="11"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cnd-xD-j6W">
+                    <rect key="frame" x="71" y="2" width="467" height="23"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmf-Et-DCi">
+                            <rect key="frame" x="0.0" y="0.0" width="467" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="dVe-CI-dpQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Editar Instruções de Imagem e Texto da Tarefa (Obrigatório)">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="editClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="gfq-gb-lv2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="gmf-Et-DCi" firstAttribute="top" secondItem="cnd-xD-j6W" secondAttribute="top" id="04g-VN-vfJ"/>
+                        <constraint firstItem="gmf-Et-DCi" firstAttribute="leading" secondItem="cnd-xD-j6W" secondAttribute="leading" id="QiL-wE-3ly"/>
+                        <constraint firstAttribute="bottom" secondItem="gmf-Et-DCi" secondAttribute="bottom" id="Yge-JF-fMO"/>
+                        <constraint firstAttribute="trailing" secondItem="gmf-Et-DCi" secondAttribute="trailing" id="rSp-Ti-QDc"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rd8-w0-Qi9">
+                    <rect key="frame" x="37.333333333333336" y="25" width="0.3333333333333357" height="167"/>
+                    <color key="backgroundColor" red="0.35686274509999999" green="0.43529411759999997" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="Qdi-Va-6gQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5o-sO-p0Q">
+                    <rect key="frame" x="71" y="37" width="120" height="120"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="CJT-fR-j0R"/>
+                        <constraint firstAttribute="height" constant="120" id="wpH-7E-9jw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Enviar Imagem" image="home_relTask_addPic">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addPicClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Bc3-u0-b5r"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iBI-FU-Alp">
+                    <rect key="frame" x="71" y="37" width="120" height="120"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEP-SO-nFh">
+                    <rect key="frame" x="457" y="142" width="81" height="13"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Excluir etapas" image="home_stak_del_step">
+                        <color key="titleColor" red="0.97647058823529409" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="delButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="bjf-JT-L0F"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSA-xL-g4Z">
+                    <rect key="frame" x="169" y="42" width="17" height="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="publick_image_clear"/>
+                    <connections>
+                        <action selector="delImgCLick:" destination="iN0-l3-epB" eventType="touchUpInside" id="dwG-Dr-Lzw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="iBI-FU-Alp" firstAttribute="leading" secondItem="B5o-sO-p0Q" secondAttribute="leading" id="6hJ-AF-04a"/>
+                <constraint firstAttribute="bottom" secondItem="rd8-w0-Qi9" secondAttribute="bottom" id="GF4-iJ-1yE"/>
+                <constraint firstAttribute="trailing" secondItem="cnd-xD-j6W" secondAttribute="trailing" constant="30" id="Iht-xf-bFi"/>
+                <constraint firstItem="iBI-FU-Alp" firstAttribute="trailing" secondItem="B5o-sO-p0Q" secondAttribute="trailing" id="K8U-Jb-bz9"/>
+                <constraint firstItem="iBI-FU-Alp" firstAttribute="top" secondItem="B5o-sO-p0Q" secondAttribute="top" id="Ko9-rQ-nxr"/>
+                <constraint firstItem="cnd-xD-j6W" firstAttribute="leading" secondItem="UxF-Ot-d4o" secondAttribute="trailing" constant="15" id="L8u-UV-TWS"/>
+                <constraint firstItem="cnd-xD-j6W" firstAttribute="centerY" secondItem="UxF-Ot-d4o" secondAttribute="centerY" id="QYZ-6P-WHF"/>
+                <constraint firstItem="cSA-xL-g4Z" firstAttribute="trailing" secondItem="B5o-sO-p0Q" secondAttribute="trailing" constant="-5" id="R17-0O-zBc"/>
+                <constraint firstItem="cSA-xL-g4Z" firstAttribute="top" secondItem="B5o-sO-p0Q" secondAttribute="top" constant="5" id="RXh-F4-Brn"/>
+                <constraint firstItem="xEP-SO-nFh" firstAttribute="bottom" secondItem="B5o-sO-p0Q" secondAttribute="bottom" constant="-2" id="SNZ-v2-gSa"/>
+                <constraint firstItem="cnd-xD-j6W" firstAttribute="height" secondItem="UxF-Ot-d4o" secondAttribute="height" id="TNL-I3-dJ8"/>
+                <constraint firstItem="iBI-FU-Alp" firstAttribute="bottom" secondItem="B5o-sO-p0Q" secondAttribute="bottom" id="TQN-Tr-nhd"/>
+                <constraint firstItem="UxF-Ot-d4o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="Wxq-in-5GT"/>
+                <constraint firstAttribute="trailing" secondItem="xEP-SO-nFh" secondAttribute="trailing" constant="30" id="YbI-kk-iqI"/>
+                <constraint firstItem="rd8-w0-Qi9" firstAttribute="centerX" secondItem="UxF-Ot-d4o" secondAttribute="centerX" id="Zjt-NX-nlf"/>
+                <constraint firstItem="B5o-sO-p0Q" firstAttribute="leading" secondItem="cnd-xD-j6W" secondAttribute="leading" id="ak7-6Y-u4J"/>
+                <constraint firstItem="B5o-sO-p0Q" firstAttribute="top" secondItem="cnd-xD-j6W" secondAttribute="bottom" constant="12" id="p9a-SU-qHw"/>
+                <constraint firstItem="rd8-w0-Qi9" firstAttribute="top" secondItem="UxF-Ot-d4o" secondAttribute="bottom" id="vgt-pc-m9x"/>
+                <constraint firstItem="UxF-Ot-d4o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="z1T-kC-hYn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addPic" destination="B5o-sO-p0Q" id="Xfx-0b-cfM"/>
+                <outlet property="addPicImg" destination="iBI-FU-Alp" id="gHE-hD-lU8"/>
+                <outlet property="clearIMgBtn" destination="cSA-xL-g4Z" id="p8N-Xf-FBU"/>
+                <outlet property="deleStepBtn" destination="xEP-SO-nFh" id="AYv-7T-Z4s"/>
+                <outlet property="editButton" destination="gmf-Et-DCi" id="JhN-rz-W4w"/>
+                <outlet property="steplab" destination="UxF-Ot-d4o" id="qJo-YU-dIN"/>
+            </connections>
+            <point key="canvasLocation" x="-1018" y="-875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_relTask_addPic" width="24" height="24"/>
+        <image name="home_stak_del_step" width="13" height="13"/>
+        <image name="publick_image_clear" width="17" height="17"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

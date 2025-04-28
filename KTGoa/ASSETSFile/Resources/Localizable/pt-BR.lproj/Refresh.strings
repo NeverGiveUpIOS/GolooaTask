@@ -1,0 +1,25 @@
+/* 
+  Refresh.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/2.
+  
+*/
+
+
+JRefreshHeaderIdleText = "Drop-down pode atualizar";
+JRefreshHeaderPullingText = "Solte e refresque instantaneamente.";
+JRefreshHeaderRefreshingText = "Atualizando os dados...";
+
+JRefreshAutoFooterIdleText = "Clique ou puxe para carregar mais";
+JRefreshAutoFooterRefreshingText = "Carregando mais dados...";
+JRefreshAutoFooterNoMoreDataText = "Já está tudo carregado";
+
+JRefreshBackFooterIdleText = "Puxe para carregar mais";
+JRefreshBackFooterPullingText = "Solte instantaneamente para carregar mais";
+JRefreshBackFooterRefreshingText = "Carregando mais dados...";
+JRefreshBackFooterNoMoreDataText = "Já está tudo carregado";
+
+JRefreshHeaderLastTimeText = "Última atualização:";
+JRefreshHeaderDateTodayText = "Hoje";
+JRefreshHeaderNoneLastDateText = "Nenhum registro";

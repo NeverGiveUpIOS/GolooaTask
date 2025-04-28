@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+
+NSMicrophoneUsageDescription = "We need access to the microphone permissions for voice recording.";
+NSUserNotificationUsageDescription = "We need access to notification permissions for sending instant alerts and the latest information.";
+NSCameraUsageDescription = "We need access to the camera permissions for taking photos and videos.";
+NSPhotoLibraryAddUsageDescription = "We need access to the album permissions for selecting and sharing photos.";
+NSPhotoLibraryUsageDescription = "We need access to the album permissions for selecting and sharing photos.";

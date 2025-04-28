@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ReleTaskAddPicView" id="iN0-l3-epB" customClass="ReleTaskAddPicView" customModule="KTGoa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="455" height="142"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBM-kp-PgC">
+                    <rect key="frame" x="18.999999999999996" y="0.0" width="36.666666666666657" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66K-UQ-DKM">
+                    <rect key="frame" x="15" y="24" width="120" height="120"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="7pp-Lt-44C"/>
+                        <constraint firstAttribute="width" constant="120" id="pMg-mK-3Sr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Enviar Imagem" image="home_relTask_addPic">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addPicClick:" destination="-1" eventType="touchUpInside" id="sWO-f6-Jc4"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RRl-au-fJb">
+                    <rect key="frame" x="15" y="24" width="120" height="120"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNQ-h9-UFe">
+                    <rect key="frame" x="112" y="30" width="17" height="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="publick_image_clear"/>
+                    <connections>
+                        <action selector="clearBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="nXK-pK-npV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="sNQ-h9-UFe" firstAttribute="top" secondItem="RRl-au-fJb" secondAttribute="top" constant="6" id="18I-0S-pvq"/>
+                <constraint firstItem="mBM-kp-PgC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="314-Dt-kkA"/>
+                <constraint firstItem="sNQ-h9-UFe" firstAttribute="trailing" secondItem="RRl-au-fJb" secondAttribute="trailing" constant="-6" id="E2n-tL-czv"/>
+                <constraint firstItem="66K-UQ-DKM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="J36-mX-sBK"/>
+                <constraint firstItem="RRl-au-fJb" firstAttribute="leading" secondItem="66K-UQ-DKM" secondAttribute="leading" id="fjq-ND-lqY"/>
+                <constraint firstItem="mBM-kp-PgC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="h7F-gU-UzB"/>
+                <constraint firstItem="RRl-au-fJb" firstAttribute="trailing" secondItem="66K-UQ-DKM" secondAttribute="trailing" id="hkR-6q-KU1"/>
+                <constraint firstItem="66K-UQ-DKM" firstAttribute="top" secondItem="mBM-kp-PgC" secondAttribute="bottom" constant="7" id="htN-Zo-XFv"/>
+                <constraint firstItem="RRl-au-fJb" firstAttribute="bottom" secondItem="66K-UQ-DKM" secondAttribute="bottom" id="tUC-kA-b1j"/>
+                <constraint firstItem="RRl-au-fJb" firstAttribute="top" secondItem="66K-UQ-DKM" secondAttribute="top" id="vep-Gp-EE1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addPic" destination="66K-UQ-DKM" id="ftJ-pE-AA7"/>
+                <outlet property="addPicImg" destination="RRl-au-fJb" id="afK-PH-Wri"/>
+                <outlet property="clearBtn" destination="sNQ-h9-UFe" id="OVh-AZ-CAK"/>
+                <outlet property="titleLab" destination="mBM-kp-PgC" id="YIZ-v0-HfU"/>
+            </connections>
+            <point key="canvasLocation" x="-150.38167938931298" y="-221.12676056338029"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_relTask_addPic" width="24" height="24"/>
+        <image name="publick_image_clear" width="17" height="17"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,42 @@
+/* 
+  Global.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+confirm="Confirmar";
+cancel = "Cancelar";
+dataEmpty="Os dados estão vazios";
+paymenting="Pagando… Aguarde";
+paymentFailed="Pagamento falhou";
+paymentSuccessful="Pagamento bem-sucedido";
+cancelPay="Pagamento cancelado";
+productNotExist="Produto não existe";
+coins="Moedas";
+myCoins="Minhas Moedas";
+rechargeCoins="Recarregar Moedas";
+coinRecords="Registro de Moedas";
+rechargeNow="Recarregar Agora";
+rechargingAgreement="Reabasteceremos indicando concordância com o《Acordo de Recarga》";
+releaseImRefresh="Solte para atualizar imediatamente";
+pullUpLoadMore="Puxe para carregar mais";
+noMoreData="Não há mais dados disponíveis";
+refresh="Atualizar";
+today="Hoje";
+bonus="Bônus";
+saveSuccessful="Salvo com Sucesso";
+
+discoverTheNewVersion="Descubra a nova versão";
+updateNow="Descubra a nova versão";
+nextTime="Próxima vez";
+tip="Aviso";
+
+albumPermissionsNotAllowedTip="Permissões de album não permitidas. Por favor, permita que “Golaa” acesse seu album em “Configurações” > “Privacidade” > “Fotos” para definir uma foto de perfil, enviar e compartilhar imagens, e salvar fotos.";
+cameraPermissionsNotAllowedTip="A utilização da câmera não está permitida. Por favor, acesse “Configurações” > “Privacidade” > “Câmera” e permita que “Golaa” acesse sua câmera para tirar fotos ou gravar vídeos e para conversas de vídeo.";
+noNetwork="Sem rede/Exceção de rede";
+networkException="Exceção de rede, verifique as configurações de rede";
+year="ano";
+month="mês";
+day="dia";

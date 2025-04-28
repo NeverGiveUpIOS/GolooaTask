@@ -1,0 +1,25 @@
+/* 
+  Refresh.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/2.
+  
+*/
+
+
+RefreshHeaderIdleText = "Pull down to refresh";
+JRefreshHeaderPullingText = "Release to refresh";
+JRefreshHeaderRefreshingText = "Loading...";
+
+JRefreshAutoFooterIdleText = "Tap or pull up to load more";
+JRefreshAutoFooterRefreshingText = "Loading...";
+JRefreshAutoFooterNoMoreDataText = "No more data";
+
+JRefreshBackFooterIdleText = "Pull up to load more";
+JRefreshBackFooterPullingText = "Release to load more.";
+JRefreshBackFooterRefreshingText = "Loading...";
+JRefreshBackFooterNoMoreDataText = "No more data";
+
+JRefreshHeaderLastTimeText = "Last updated: ";
+JRefreshHeaderDateTodayText = "Today";
+JRefreshHeaderNoneLastDateText = "No record";

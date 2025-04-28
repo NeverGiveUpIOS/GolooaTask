@@ -1,0 +1,6 @@
+framework module Pods_KTGoa {
+  umbrella header "Pods-KTGoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

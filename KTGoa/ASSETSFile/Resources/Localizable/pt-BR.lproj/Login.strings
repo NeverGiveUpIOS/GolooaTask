@@ -1,0 +1,39 @@
+/* 
+  Login.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+hello="Olá";
+welcomeToGolaa="bem-vindo(a) ao Golaa";
+userAgreement="《termo de Uso》";
+privacyPolicy="《política de Privacidade》";
+agreeToUserAgreementAndPrivacy="Concordo com o Termo de Uso e a Política de Privacidade";
+loginWithPhoneNumber="Entrar com Número de Celular";
+switchToEmailLogin="Mudar para Entrar com Email";
+enterPhoneNumber="Digite o Número de Celular";
+and="e";
+sendCode="Enviar Código";
+resend="Reenviar";
+enterVerificationCode="Digite o Código de Verificação.";
+confirm="Confirmar";
+emailLogin="Login por Email";
+switchToPhoneNumberLogin="Mudar para Login por Número de Celular";
+enterEmailAddress="Digite o Endereço de Email";
+enterEmailVerificationCode="Digite o Código de Verificação de Email";
+helloWelcomeToGolaa="Olá, bem-vindo(a) ao Golaa";
+myNickname="Meu Apelido";
+gender="Gênero";
+male="Masculino";
+female="Feminino";
+invitationCode="Código de Convite";
+optional="Opcional";
+
+pleaseEnterPhoneNumber="digite o Número de Celular";
+pleaseEnterEmailNumber="digite o endereço de email";
+pleaseEnterVerifNumber="digite o código de verificação";
+
+agreementTitle="Acuerdo de usuario y Protocolo de Privacidad";
+agreementText="Nós ajudaremos você a entender os serviços que você recebe e a forma como coletamos e processamos suas informações pessoais através do “Termo de Uso” e da “Política de Privacidade.” Ao clicar no botão ‘Aceitar’, você está indicando que concorda com os acordos mencionados anteriormente.";

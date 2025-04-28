@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ReleTaskTimeView" id="iN0-l3-epB" customClass="ReleTaskTimeView" customModule="KTGoa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="62"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definir o Período da Tarefa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mva-my-a09">
+                    <rect key="frame" x="19" y="0.0" width="178.66666666666666" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6a-IR-V25">
+                    <rect key="frame" x="15" y="24" width="455" height="38"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0B-PM-Erz">
+                            <rect key="frame" x="224.66666666666666" y="18.666666666666664" width="6" height="0.66666666666666785"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="6" id="wpE-zR-zMw"/>
+                                <constraint firstAttribute="height" constant="0.5" id="zrT-oR-6FY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOe-Cs-mzS">
+                            <rect key="frame" x="0.0" y="0.0" width="220.66666666666666" height="38"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Data de Início">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="startTimeClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ioR-f0-toe"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txl-RU-ujn">
+                            <rect key="frame" x="234.66666666666663" y="0.0" width="220.33333333333337" height="38"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Data de Término">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="endTimeClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Hbv-pX-s01"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Txl-RU-ujn" secondAttribute="bottom" id="Edm-Gc-ivw"/>
+                        <constraint firstItem="OOe-Cs-mzS" firstAttribute="top" secondItem="K6a-IR-V25" secondAttribute="top" id="Hg4-Nh-98S"/>
+                        <constraint firstItem="OOe-Cs-mzS" firstAttribute="leading" secondItem="K6a-IR-V25" secondAttribute="leading" id="Mvy-ff-Pyv"/>
+                        <constraint firstItem="k0B-PM-Erz" firstAttribute="trailing" secondItem="OOe-Cs-mzS" secondAttribute="trailing" constant="10" id="Phc-wi-RpJ"/>
+                        <constraint firstAttribute="bottom" secondItem="OOe-Cs-mzS" secondAttribute="bottom" id="QhP-sh-hLn"/>
+                        <constraint firstItem="k0B-PM-Erz" firstAttribute="leading" secondItem="OOe-Cs-mzS" secondAttribute="trailing" constant="4" id="T31-Wg-5OZ"/>
+                        <constraint firstItem="k0B-PM-Erz" firstAttribute="centerX" secondItem="K6a-IR-V25" secondAttribute="centerX" id="ZFZ-du-G3F"/>
+                        <constraint firstItem="Txl-RU-ujn" firstAttribute="top" secondItem="K6a-IR-V25" secondAttribute="top" id="ZvZ-wP-QJ6"/>
+                        <constraint firstAttribute="trailing" secondItem="Txl-RU-ujn" secondAttribute="trailing" id="f5L-Nh-9cf"/>
+                        <constraint firstItem="k0B-PM-Erz" firstAttribute="leading" secondItem="OOe-Cs-mzS" secondAttribute="trailing" constant="4" id="hCS-Tu-3pP"/>
+                        <constraint firstItem="Txl-RU-ujn" firstAttribute="leading" secondItem="k0B-PM-Erz" secondAttribute="leading" constant="10" id="lmr-iE-eUS"/>
+                        <constraint firstItem="k0B-PM-Erz" firstAttribute="centerY" secondItem="K6a-IR-V25" secondAttribute="centerY" id="pLl-fh-y2Z"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="K6a-IR-V25" secondAttribute="bottom" id="8GP-fa-R00"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="K6a-IR-V25" secondAttribute="trailing" constant="15" id="ah9-oO-Viy"/>
+                <constraint firstItem="K6a-IR-V25" firstAttribute="top" secondItem="Mva-my-a09" secondAttribute="bottom" constant="7" id="cW9-yc-aa5"/>
+                <constraint firstItem="Mva-my-a09" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="k2R-ly-7i7"/>
+                <constraint firstItem="Mva-my-a09" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="nkT-Ki-FZw"/>
+                <constraint firstItem="K6a-IR-V25" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="qWc-x0-HPW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="endTimeBtn" destination="Txl-RU-ujn" id="y51-5J-vcM"/>
+                <outlet property="lineView" destination="k0B-PM-Erz" id="P7v-7C-J4k"/>
+                <outlet property="startTimebtn" destination="OOe-Cs-mzS" id="orS-Tw-G1y"/>
+            </connections>
+            <point key="canvasLocation" x="74.045801526717554" y="-236.61971830985917"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

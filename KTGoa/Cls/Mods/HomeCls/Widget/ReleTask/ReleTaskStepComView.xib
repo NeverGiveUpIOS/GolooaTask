@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ReleTaskStepComView" id="iN0-l3-epB" customClass="ReleTaskStepComView" customModule="KTGoa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="486" height="27"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMw-g0-JIE">
+                    <rect key="frame" x="19" y="2" width="37" height="23"/>
+                    <color key="backgroundColor" red="0.35686274509999999" green="0.43529411759999997" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="1Hj-h4-cFz"/>
+                        <constraint firstAttribute="height" constant="23" id="5sK-cg-MC2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="11"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verificação e Liquidação pela Plataforma" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ML-KK-fRc">
+                    <rect key="frame" x="71" y="5" width="262.33333333333331" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.35686274509803922" green="0.43529411764705883" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsT-4X-f19">
+                    <rect key="frame" x="71" y="1" width="145" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="6cY-Yl-GPv"/>
+                        <constraint firstAttribute="width" constant="145" id="7aC-oT-ZPQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Continuar a Adicionar" image="home_task_jx_add_step">
+                        <color key="titleColor" systemColor="labelColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="jxAddStepClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ntP-Er-UGQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbw-28-8Qz">
+                    <rect key="frame" x="228" y="1" width="76" height="25"/>
+                    <color key="backgroundColor" red="1" green="0.85490196080000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="WSx-ph-iJm"/>
+                        <constraint firstAttribute="height" constant="25" id="kIt-Gy-6Xv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Concluir">
+                        <color key="titleColor" systemColor="labelColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="comStepClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="c0l-Qm-KHe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Kbw-28-8Qz" firstAttribute="centerY" secondItem="KMw-g0-JIE" secondAttribute="centerY" id="9Ch-wJ-Du3"/>
+                <constraint firstItem="TsT-4X-f19" firstAttribute="leading" secondItem="KMw-g0-JIE" secondAttribute="trailing" constant="15" id="G8F-f6-hTi"/>
+                <constraint firstItem="8ML-KK-fRc" firstAttribute="leading" secondItem="KMw-g0-JIE" secondAttribute="trailing" constant="15" id="KfP-cw-5l6"/>
+                <constraint firstItem="TsT-4X-f19" firstAttribute="centerY" secondItem="KMw-g0-JIE" secondAttribute="centerY" id="Kmh-hS-vJ9"/>
+                <constraint firstItem="8ML-KK-fRc" firstAttribute="centerY" secondItem="KMw-g0-JIE" secondAttribute="centerY" id="N1W-Hb-ja3"/>
+                <constraint firstItem="KMw-g0-JIE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="XUL-bD-jpS"/>
+                <constraint firstItem="KMw-g0-JIE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="aCx-hg-wDU"/>
+                <constraint firstItem="Kbw-28-8Qz" firstAttribute="leading" secondItem="KMw-g0-JIE" secondAttribute="trailing" constant="172" id="ajQ-1v-Xgm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="comLeading" destination="ajQ-1v-Xgm" id="JW3-o1-vEt"/>
+                <outlet property="comStep" destination="Kbw-28-8Qz" id="HT7-oA-ABX"/>
+                <outlet property="jxAddStep" destination="TsT-4X-f19" id="ISI-6r-WQk"/>
+                <outlet property="pthsLab" destination="8ML-KK-fRc" id="CQi-Cw-m4L"/>
+                <outlet property="stepLab" destination="KMw-g0-JIE" id="ZzJ-Bo-Vv9"/>
+            </connections>
+            <point key="canvasLocation" x="-220" y="-379"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_task_jx_add_step" width="9.6666669845581055" height="10"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

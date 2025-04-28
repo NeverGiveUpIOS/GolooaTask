@@ -1,0 +1,24 @@
+/* 
+  Refresh.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/2.
+  
+*/
+
+JRefreshHeaderIdleText = "下拉可以刷新";
+JRefreshHeaderPullingText = "松开立即刷新";
+JRefreshHeaderRefreshingText = "正在刷新数据中...";
+
+JRefreshAutoFooterIdleText = "点击或上拉加载更多";
+JRefreshAutoFooterRefreshingText = "正在加载更多的数据...";
+JRefreshAutoFooterNoMoreDataText = "已经全部加载完毕";
+
+JRefreshBackFooterIdleText = "上拉可以加载更多";
+JRefreshBackFooterPullingText = "松开立即加载更多";
+JRefreshBackFooterRefreshingText = "正在加载更多的数据...";
+JRefreshBackFooterNoMoreDataText = "已经全部加载完毕";
+
+JRefreshHeaderLastTimeText = "最后更新：";
+JRefreshHeaderDateTodayText = "今天";
+JRefreshHeaderNoneLastDateText = "无记录";

@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+NSMicrophoneUsageDescription = "我们需要访问麦克风权限，用于语音录制";
+NSUserNotificationUsageDescription = "T我们需要访问通知权限，用于发送即时提醒和最新信息";
+NSCameraUsageDescription = "我们需要访问相机权限，用于拍摄照片和视频功能";
+NSPhotoLibraryAddUsageDescription = "我们需要访问相册权限，用于选择和分享照片功能";
+NSPhotoLibraryUsageDescription = "我们需要访问相册权限，用于选择和分享照片功能";

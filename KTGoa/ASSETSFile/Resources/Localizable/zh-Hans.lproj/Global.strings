@@ -1,0 +1,42 @@
+/* 
+  Global.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+confirm="确定";
+cancel = "取消";
+dataEmpty="数据为空";
+paymenting="支付中请勿离开...";
+paymentFailed="支付失败";
+paymentSuccessful="支付成功";
+cancelPay="已取消支付";
+productNotExist="商品不存在";
+coins="金币";
+myCoins="我的金币";
+rechargeCoins="充值金币";
+coinRecords="金币记录";
+rechargeNow="立即充值";
+rechargingAgreement="充值表示同意《充值协议》";
+releaseImRefresh="松开立即刷新";
+pullUpLoadMore="上拉加载更多";
+noMoreData="没有更多数据了";
+refresh="刷新";
+today="今天";
+bonus="赠送";
+saveSuccessful="保存成功";
+
+discoverTheNewVersion="发现新版本";
+updateNow="立即更新";
+nextTime="下次";
+tip="提示";
+
+albumPermissionsNotAllowedTip="相册权限不允许，请允许“Golaa”访问您的相册，在“设置”>“隐私”>“照片”中设置个人头像、上传和发布图片、保存图片。";
+cameraPermissionsNotAllowedTip="不允许使用相机，请在“设置”>“隐私”>“相机”中允许“Golaa”访问您的相机拍摄照片或视频，并进行视频聊天。";
+noNetwork="无网/网络异常";
+networkException="网络异常,请检查网络设置";
+year="年";
+month="月";
+day="日";

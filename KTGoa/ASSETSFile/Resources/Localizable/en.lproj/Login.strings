@@ -1,0 +1,37 @@
+/* 
+  Login.strings
+  KTGoa
+
+  Created by chenkaisong on 2024/8/1.
+  
+*/
+
+hello="Hello";
+welcomeToGolaa="welcome to Golaa";
+userAgreement="《user Agreement》";
+privacyPolicy="《privacy Policy》";
+agreeToUserAgreementAndPrivacy="Agree to User Agreement & Privacy Policy";
+loginWithPhoneNumber="Phone Login";
+switchToEmailLogin="Switch to Email Login";
+enterPhoneNumber="Enter Phone Number";
+and="and";
+pleaseEnterPhoneNumber="please enter phone number";
+pleaseEnterEmailNumber="please enter email address";
+pleaseEnterVerifNumber="please enter verification code";
+sendCode="Send Code";
+resend="Resend";
+enterVerificationCode="Enter Verification Code";
+confirm="Confirm";
+emailLogin="Email Login";
+switchToPhoneNumberLogin="Switch to Phone Number Login";
+enterEmailAddress="Enter Email Address";
+enterEmailVerificationCode="Enter Email Verification Code";
+helloWelcomeToGolaa="Hello, welcome to Golaa";
+myNickname="My Nickname";
+gender="Gender";
+male="Male";
+female="Female";
+invitationCode="Invitation Code";
+optional="Optional";
+agreementTitle="User Agreement and Privacy Protocol";
+agreementText="We will help you understand the services we provide for you and the way we collect and process your personal information through the “User Agreement” and “Privacy Policy.” Clicking the ‘Agree’ button signifies that you have agreed to the aforementioned agreements.";
